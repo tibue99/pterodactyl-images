@@ -1,6 +1,6 @@
-FROM python:3.10-slim
+FROM        python:3.10-slim
 
-LABEL       author="tibue99" maintainer="tibue99@keksbot.xyz"
+LABEL       author="tibue99" maintainer="support@cookie-bot.xyz"
 
 RUN         apt update \
             && apt -y install git gcc g++ ca-certificates dnsutils curl iproute2 ffmpeg procps tmux \
